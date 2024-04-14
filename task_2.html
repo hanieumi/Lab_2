@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration</title>
+</head>
+<body>
+    <h2>Conference Registration Form</h2>
+    <form action="#" method="post">
+
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" max="99" placeholder="18" required><br><br>
+
+        <label for="gender">Gender:</label><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <form action="/action_page.php">
+            <label for="country">Country of Residence:</label><br>
+            <select id="country" name="country">
+              <option value="malaysia">Malaysia</option>
+              <option value="saudi arabia">Saudi Arabia</option>
+              <option value="south korea">South Korea</option><br>
+            </select>
+            <br><br
+>
+        <form action="/action_page.php">
+            <label for="country">Areas of Interest:</label><br><br>
+
+            <input type="checkbox" id="interest1" name="interest1" value="Software Development">
+            <label for="interest">Software Development</label><br>
+
+            <input type="checkbox" id="interest2" name="interest2" value="Data Science">
+            <label for="interest2"> Data Science</label><br>
+
+            <input type="checkbox" id="interest3" name="interest3" value="Cybersecurity">
+            <label for="interest3">Cybersecurity</label><br>
+
+            <input type="checkbox" id="interest4" name="interest4" value="Artificial Intelligence">
+            <label for="interest4">Artificial Intelligence</label><br><br>
+
+            <form>
+                <label for="country">Experience Level:</label><br><br>
+
+                <input type="radio" id="beginner" name="fav_language" value="beginner">
+                <label for="beginner">Beginner</label><br>
+                <input type="radio" id="intermediate" name="fav_language" value="intermediate">
+                <label for="intermediate">Intermediate</label><br>
+                <input type="radio" id="advanced" name="fav_language" value="advanced">
+                <label for="advanced">Advanced</label><br>
+                </form> 
+                    <br>
+
+                    <label for="comment">Comments or Questions:</label><br>
+                    <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Any comment or question ?"></textarea>
+
+                    <br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                  </form> 
+
+
+    </form>
+</body>
+</html>
